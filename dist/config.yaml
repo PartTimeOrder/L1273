@@ -1,0 +1,15 @@
+# eth 的 api
+api: "KMF22IVKM1W6ZN4Q59VCV3KJ6WWURQN636"
+# 需要监控的地址，列表形式支持多个
+address: [
+  "0x63A28913E76eB8C3c66eA87aAee559584cC5d7Bb",
+  "0x500FfECf782a6f80bcc581778C9C626De40C7005",
+  "0x6668b94789584F9fbd02499Ad3936c7647bbA5A0",
+  "0xDc52FF28fDA77c9CeA31c8206685fcd6553B8B35"
+]
+# 钉钉 bot 的 api
+botApi: "https://oapi.dingtalk.com/robot/send/?access_token="
+# 钉钉 bot 的 key
+botKey: "23ba4aa1ecbb50de8642c0d1fb406b3289da3bb33e2be0d008a3b08ff50731db"
+# 获取频率，间隔多少秒请求一次
+num: 10
