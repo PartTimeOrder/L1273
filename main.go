@@ -19,6 +19,9 @@ func main() {
 			time.Sleep(2 * time.Second)
 			print(v + "\n")
 			info := requests.Transaction(c.Api, v)
+			if len(info.Result) <= 0 {
+				continue
+			}
 			results := info.Result[0]
 			// 返回 log 中的 md5 值
 			logList := requests.GetFileContents()
